@@ -1,2 +1,2 @@
-# project
-This is a test ahahah
+# Présentation du projet
+Bonjour à vous ! Si vous lisez ce texte c'est que je vous ai envoyé le lien permettant d'avoir accès au développement du projet de site web en collaboration avec l'Institution de la Croix Blanche de Bondues. N'hésitez pas à me contacter sur les réseaux pour avoir plus d'informations si vous êtes concernés, je me ferai une joie de vous aider.
