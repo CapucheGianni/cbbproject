@@ -1,3 +1,18 @@
+/*guten tag*/
+
 h1{
-  color: aqua;
+  font-size: 50px;
+  text-decoration: underline;
+  text-shadow: 3px 2px rgb(173, 173, 173);
+}
+
+#test{
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+body{
+  background-image: url("https://mobile-img.lpcdn.ca/lpca/924x/r3996/c41cfc88-3ef3-11ea-82bb-0eda3a42da3c.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
