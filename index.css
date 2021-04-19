@@ -1,18 +1,62 @@
-/*guten tag*/
+/* Les différentes polices utilisables de base : Arial, Arial Black, Comic Sans MS, Courier New, Georgia, Impact,
+Times New Roman, Trebuchet MS, Verdana */
+
+/* Les différents types de bordures : solid, dotted, dashed, double, groove, ridge, inset, outset */
+
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 h1{
   font-size: 50px;
   text-decoration: underline;
-  text-shadow: 3px 2px rgb(173, 173, 173);
+  text-shadow: 3px 2px #ADADAD;
 }
 
-#test{
+#titre{ /*permet de placer le titre+sous-titre au centre de la page*/
   color: rgb(0, 0, 0);
   text-align: center;
 }
 
-body{
+body{ /*fond de l'accueil*/
   background-image: url("https://mobile-img.lpcdn.ca/lpca/924x/r3996/c41cfc88-3ef3-11ea-82bb-0eda3a42da3c.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+/*en-tête du site avec toutes les pages disponibles*/
+nav{ 
+  font-size: 30px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+nav li{
+	float: left;
+	list-style-type: none;
+}
+
+nav a{
+	display: inline-block;
+	padding: 20px 30px;
+}
+
+li:hover{
+	background-color: #000;
+	display: table;
+	margin: 0; 
+}
+
+/*couleurs des liens*/
+a{
+  color: #000;
+}
+a:hover{
+  color: #FFF;
 }
